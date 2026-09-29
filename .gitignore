@@ -1,0 +1,38 @@
+# Local data
+notes.txt
+
+# Secrets / auth
+.env
+.env.*
+*.pem
+spotify_token.json
+*_token.json
+*_secret*
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Debug / agent logs
+debug-*.log
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+.cursor/
+
+# Build leftovers
+*.o
+*.obj
+*.ilk
+*.pdb
